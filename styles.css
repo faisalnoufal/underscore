@@ -1,0 +1,61 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7e7c2;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#input {
+  border: 3px solid #ccc;
+  color: grey;
+  border-radius: 5px;
+  display: block;
+  overflow: hidden;
+  resize: none;
+  height: 100px;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#change {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(53, 141, 176); /* Green */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#preface {
+  color: rgb(34, 29, 29);
+  font-size: 12px;
+}
+
+#output {
+  color: rgb(94, 95, 99);
+  width: 90%;
+  overflow-wrap: break-word;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Adjust styles for screens wider than 600px */
+  #input,
+  #output {
+    width: 600px;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
